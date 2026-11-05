@@ -3,9 +3,8 @@ const express = require("express");
 const app = express();
 const PORT = 8000;
 
-// Home route
 app.get("/", (req, res) => {
-  res.send("Welcome to Ganga View Café server");
+  res.send("hello you are welcome to  SAHUBHAM CAFE server");
 });
 app.get("/about", (req, res) => {
   res.json({
